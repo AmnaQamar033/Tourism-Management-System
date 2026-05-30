@@ -1,42 +1,33 @@
-# Smart Tourism Management System 🌍✈️
+# Tourism Management System
 
-A comprehensive, interactive, and intelligent terminal-based travel planner application developed in **C Language**. This project is engineered to streamline trip planning by utilizing data-driven user metrics, offering both pre-configured curated holiday packages and dynamic, user-defined custom travel architectures.
-
----
-
-## 🚀 Key Features
-
-* **🧠 Algorithmic Travel Suggestions (Mood & Personality Vectors):** Features built-in diagnostic assessment modules. The application processes live user behavioral matrices (current mood inputs and short psychographic profiling queries) to dynamically recommend optimal travel categories.
-* **🗺️ Curated Holiday Categories:** Pre-loaded with deep multidimensional dataset arrays covering 6 distinct Pakistani tourism zones: Northern Areas, Coastal Areas, Historical/Cultural Sites, Urban Exploration, Adventure/Trekking, and Religious/Spiritual Hubs.
-* **🛠️ Custom Itinerary Architecture Builder:** An interactive sandbox engine allowing users to input customized distance metrics, lodging preferences, scaling operational parameters, and custom route points to calculate tailored real-time package valuations.
-* **🎮 Integrated Gamified Discount Framework:** Features an embedded interactive 2D grid positioning game (`4x4 matrix implementation`). Users select coordinates to locate hidden variables to secure a real-time 10% automated checkout discount.
-* **📊 Structured Invoicing & Live Receipts:** Generates data-validated dynamic receipts mapping customer identification keys (CNIC, gender, membership tallies) along with itemized financial metrics.
-* **📋 Context-Aware Travel Advisories:** Utilizes an advanced tabular string matching system (`strcmp`) to generate custom recommendations, including packing check-lists, health advisory warnings, cultural boundaries, and localized landmark photo spots unique to the selected booking location.
+This is my Semester 1 Final Project made entirely in C Language. It is a terminal-based travel planner application that helps users browse holiday packages in Pakistan, build their own custom trips, and get smart recommendations based on their mood.
 
 ---
 
-## 🛠️ Core Programming Concepts Demonstrated
+## Key Features
 
-This system showcases robust foundational principles of low-level procedural software development:
-
-* **Data Encapsulation & Structs:** Utilizes complex custom structures (`struct DestinationDetail`) to hold strings, primitive attributes, and nested string arrays securely.
-* **Multidimensional Arrays:** Extensively deploys character grids and lookup integer matrices to store synchronized localized data, pricing rules, and destination indices.
-* **Flow Control & Error Management:** Employs defensive data routing loops (`do-while` validation structures) to reject irregular terminal types, out-of-bound array inquiries, and incorrect string inputs.
-* **String Manipulation Architecture:** Heavily implements string coping (`strcpy`) and validation comparisons (`strcmp`) to parse complex multidimensional arrays cleanly.
-* **State Machines & Modular Loops:** Structured using localized functional blocks controlled by a clean operational master main loop (`while(1)` abstraction pattern), replacing recursive pitfalls.
+* **Mood and Personality Quiz:** Don't know where to go? The program asks you a few simple questions about your current mood or travel vibes and automatically suggests the best category for you (like Northern Areas, Coastal zones, etc.).
+* **Custom Trip Builder:** If you don't like pre-made packages, you can plan your own! Just input your destination, total distance (in km), number of days, members, and meals per day. The system will calculate your total cost (hotel, travel, and food) in real-time.
+* **Mini-Game for Discounts:** To make things fun, I added a small 4x4 grid game. If you guess the correct coordinates and find the hidden number '5', you instantly get a 10% discount on your bill!
+* **Smart Travel Suggestions:** Once you book a trip, the system uses string matching (strcmp) to show you custom tables with helpful tips like packing checklists, famous local foods, best photo spots, and health advisories for that specific place.
+* **Automatic Billing Receipt:** Generates a neat checkout receipt showing customer details (Name, CNIC, Gender, Members) and the final amount paid.
 
 ---
 
-## 💻 Tech Stack & Environment
+## CS Concepts I Used Here
 
-* **Language:** C (C99 Standard Compliant)
-* **Operating System Compatibility:** Cross-Platform Macro Inclusions (`_WIN32` / Native POSIX compiler directives for dynamic system time management via `Sleep` / `sleep`).
-* **Development Tools:** VS Code, Dev-C++, GCC Compiler Toolkit, Git Version Control.
+Since this was my first major programming project, I applied several core concepts of structural C programming:
+
+* **Structs:** Used to bundle all package details (hotel info, days, nights, meals, and day-by-day itineraries) cleanly into one custom data type.
+* **2D Arrays and Matrices:** Used for handling multiple destinations, storing prices, and creating the grid for the discount mini-game.
+* **Input Validation Loops:** Used do-while loops to check that the user doesn't enter random values (like a 2-digit CNIC or wrong gender choices) so the program doesn't crash.
+* **String Functions:** Used strcmp and strcpy to handle user choices and match strings smoothly.
+* **Clean Control Loops:** Replaced recursive main calls with an infinite while(1) control loop to manage navigation safely without any memory overflow issues.
 
 ---
 
-## 📦 How To Run the Project
+## How to Run This on Your Machine
 
-1. **Clone the Repository:**
+1. **Clone the repo:**
    ```bash
    git clone [https://github.com/YOUR_GITHUB_USERNAME/Tourism-Management-System-C.git](https://github.com/YOUR_GITHUB_USERNAME/Tourism-Management-System-C.git)
