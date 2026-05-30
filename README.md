@@ -30,4 +30,4 @@ Since this was my first major programming project, I applied several core concep
 
 1. **Clone the repo:**
    ```bash
-   git clone [https://github.com/AmnaQamar033/Tourism-Management-System]
+   git clone [https://github.com/AmnaQamar033/Tourism-Management-System](https://github.com/AmnaQamar033/Tourism-Management-System)
