@@ -1,6 +1,6 @@
 # Tourism Management System
 
-This is my Semester 1 Final Project made entirely in C Language. It is a terminal-based travel planner application that helps users browse holiday packages in Pakistan, build their own custom trips, and get smart recommendations based on their mood.
+This is my Semester 2 Final Project made entirely in C Language. It is a terminal-based travel planner application that helps users browse holiday packages in Pakistan, build their own custom trips, and get smart recommendations based on their mood.
 
 ---
 
